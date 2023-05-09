@@ -1,11 +1,11 @@
 const { Router } = require('express')
 
-const UserController = require('../controllers/UserController')
-const SessionController = require('../controllers/Login')
-const ProductController = require('../controllers/ProductController')
-const CartController = require('../controllers/CartController')
+const UserController = require('../src/controllers/UserController')
+const SessionController = require('../src/controllers/Login')
+const ProductController = require('../src/controllers/ProductController')
+const CartController = require('../src/controllers/CartController')
 
-const { authenticate } = require('../middlewares')
+const { authenticate } = require('../src/middlewares')
 
 const routes = Router()
 
